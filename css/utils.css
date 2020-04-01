@@ -1,0 +1,40 @@
+@font-face {
+  font-family: Josefin_Sans-Light;
+  src: url("./../fonts/Josefin_Sans/JosefinSans-Light.ttf");
+}
+@font-face {
+  font-family: Josefin_Sans-Regular;
+  src: url(./../fonts/Josefin_Sans/JosefinSans-Regular.ttf);
+}
+@font-face {
+  font-family: Josefin_Sans-SemiBold;
+  src: url("./../fonts/Josefin_Sans/JosefinSans-SemiBold.ttf");
+}
+
+.font-light {
+  font-family: "Josefin_Sans-Light", sans-serif;
+}
+
+.font-regular {
+  font-family: "Josefin_Sans-Regular", sans-serif;
+}
+
+.font-semibold {
+  font-family: "Josefin_Sans-SemiBold", sans-serif;
+}
+
+body {
+  font-family: "Josefin_Sans-Regular", sans-serif;
+}
+
+.font-soft-red {
+  color: #f96262;
+}
+
+.font-desaturated-red {
+  color: #ce9797;
+}
+
+.height-100 {
+  height: 100vh;
+}

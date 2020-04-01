@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Base Apparel</title>
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/utils.css" />
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row height-100">
+        <div class="col-12 col-lg-7 p-0 section-one position-relative">
+          <div class="logo">
+            <img src="images/logo.svg" alt="logo" />
+          </div>
+
+          <!-- Image displays only for small devices. -->
+          <img
+            class="d-lg-none mobile-image"
+            src="images/hero-mobile.jpg"
+            alt=""
+          />
+
+          <div class="core-content">
+            <h1>
+              <span class="font-light font-desaturated-red">WE'RE</span>
+              <br />
+              COMING
+              <br />
+              SOON
+            </h1>
+
+            <p class="pt-3">
+              Hello fellow shoppers! We're currently building our new fashion
+              store. Add your email below to stay up-to-date with announcements
+              and our launch deals.
+            </p>
+
+            <form
+              name="subscriptionForm"
+              class="position-relative mt-5"
+              onsubmit="submitData(event)"
+            >
+              <input
+                id="email"
+                class="email-input"
+                placeholder="Email Address"
+                autocomplete="off"
+              />
+              <button class="email-button" type="submit">
+                <img src="images/icon-arrow.svg" alt="arrow" />
+              </button>
+              <img id="error-icon" src="images/icon-error.svg" alt="error" />
+
+              <div id="error-message" class="mt-2 font-soft-red font-light">
+                Please provide a valid email
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Right section contains image, Displays only for large screen. -->
+        <div class="col-lg-5 d-none d-lg-block section-two"></div>
+      </div>
+    </div>
+
+    <script src="bootstrap/jquery-3.4.1.min.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
